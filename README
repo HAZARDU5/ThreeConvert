@@ -1,6 +1,8 @@
 ThreeConvert
 02.10.12
 by Arjun Prakash 
+Modifications by Michael Andrew (michael@gladeye.co.nz)
+- Now exports OBJs in Binary JSON format by default
 
 Utility App for OX to convert 3d object to three.js
 

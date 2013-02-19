@@ -112,7 +112,7 @@
         
         //NSLog(@"shell script: %@ %@", pyScript, pyInputFlag);
         
-        arguments = [NSArray arrayWithObjects:pyScript, pyInputFlag, pyInputLocation, pyOutputFlag, pyOutputLocation, nil];
+        arguments = [NSArray arrayWithObjects:pyScript, pyInputFlag, pyInputLocation, pyOutputFlag, pyOutputLocation, [NSString stringWithFormat:@"-t"], [NSString stringWithFormat:@"binary"], nil];
         task.arguments = arguments;
         //The magic line that keeps your log where it belongs
         [task setStandardInput:[NSPipe pipe]];
